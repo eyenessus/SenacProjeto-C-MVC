@@ -1,0 +1,24 @@
+
+h1 {
+    text-align: center;
+
+    color: rgb(8, 119, 174);
+    text-shadow: 20px 2px 20px;
+}
+
+
+footer li{
+    color: white;
+}
+
+#logo{
+    color:white;
+}
+footer{
+    margin-top: 5%;
+    background-color: rgb(0, 162, 255);
+    border-radius: 5px;
+}
+footer a{
+   width: 50%;
+}
