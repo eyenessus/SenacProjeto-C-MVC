@@ -29,9 +29,18 @@ public class HomeController : Controller
          return View();
     }
 
+    [HttpPost]
+    public IActionResult ContatoIn() { 
+
+        Console.WriteLine("Standard DateTime Format Specifiers");
+        return View();
+    }
+
     public IActionResult Produtos(){
          return View();
     }
+
+    
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
