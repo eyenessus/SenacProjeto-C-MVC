@@ -1,4 +1,25 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿var nome = document.getElementById('nome');
+var email = document.getElementById('email');
+var descricao = document.getElementById('descricao');
+var formularioContato = document.getElementById('contatoForm');
 
-// Write your JavaScript code.
+
+var imagemcentro = document.getElementById('centro');
+imagemcentro.addEventListener('click', ()=>{
+    alert('SEJA BEM VINDO')
+})
+formularioContato.onsubmit(event =>{
+    event.preventDefault();
+    if(nome.value === ''){
+        alert('Preencha o campo')
+        return
+    }
+    if(email.value === ''){
+        alert('Preencha o campo')
+        return
+    }
+    if(descricao.value === ''){
+        alert('Preencha o campo')
+        return
+    }
+})
